@@ -1,7 +1,8 @@
 body {
-  margin: 0px;
+  
   font-family: Arial;
   background-color: #4912f6;
+  color:white
   
 
 }
@@ -12,16 +13,20 @@ body {
 display:flex;
 flex-direction:row;
 align-items:center;
+
 }
 
 
 input[type='button'] {
+  color: white;
 padding: 10px 24px;
 border:0px;
-border-radius:9px;
+border-radius:60px;
 border:0px;
+
   
 }
+
 
 
 a:visited {
@@ -32,16 +37,75 @@ a:hover {
   color: white;
 }
 .headline-1{
-font: size 0px;
+font: size 40px;
+color:white;
 }
 
 
-.section-2{
-color: aliceblue;
+.section-2  {
+display:flex;
+flex-direction: row;
+align-items: left;
+color:white;
+margin-left: 50px;
+
+
+}
+
+.section-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center-left;
+  justify-content: center-left;
+  color:white;
+  
+
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:center;
+  margin: 0 300px;
+
+}
+.section-4{
+  display: flex;
+  flex-direction: column;
+  align-items: center-right;
+  justify-content:center-right;
+  color:white;
+ 
+}
+
+.header {
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  color:white;
+  font-weight: bold;
+  margin-bottom: 145px;
+  font-weight:bold;
+  width: 100%;
+
+}
+.header-2 {
+  display:flex;
+  color:white;
+  font-weight:bold;
+  font-size: 30px;
+
+}
+.headline-2 {
+  color:white;
+  font: size 20px;
+  
+}
+.headline-3{
+   font-size:x-small;
+   color: white;
+  
+}
 
   
-display:flex;
 
-
-
-}
